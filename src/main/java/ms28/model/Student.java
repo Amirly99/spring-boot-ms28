@@ -11,10 +11,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Student {
-    @Id//id 'lerin avtomatic yaradilmasi ucun istifade olunur;
-    @GeneratedValue(strategy = GenerationType.AUTO)
 
-    Long id;//unique yeni id'ler tekrarlanmir;
     String name;
     String surname;
     String address;
